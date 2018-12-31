@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Сапер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="src/SynteticEvent.js"></script>
+    <script src="src/EventDispetcher.js"></script>
+    <script src="src/GameEvent.js"></script>
+    <script src="src/Modell.js"></script>
+    <script src="src/DOMView.js"></script>
+    <script src="src/ControllerDOM.js"></script>
+    <script>
+        var game = new Modell();
+        var GameView = new DOMView(game);
+       var Controller = new ControllerDOM(GameView,game);
+        Controller.CreateGame();
+        Controller.GetMine();
+    </script>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+table {
+    width: 600px;
+    border-spacing: 0;
+}
+tr{
+    border-color: black;
+}
+td{
+    border: 0.5px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #a7b7b9;
+    width: 20px;
+    height: 20px;
+}
+.empty-cell{
+    background-color: #edfdff;
+    font-size: 20px;
+}
+.one{
+    color: darkblue;
+    font-size: 20px;
+}
+.two{
+    color: green;
+    font-size: 20px;
+}
+.three{
+    color: orange;
+    font-size: 20px;
+}
+.four{
+    color: red;
+    font-size: 20px;
+}
+.panel{
+    background-color: #e3e3e3;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    max-height: 35px;
+}
+.timer{
+    display: inline-block;
+    color: #c60000;
+    float: right;
+}
+.time {
+    display: inline-block;
+    font-size: 20px;
+    color: #c60000;
+}
+.container{
+    width: 95%;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.face-emotion
+{
+    display: inline-block;
+    background-color: transparent;
+}
+.flag-count
+{
+    text-align: right;
+    float: left;
+    display: inline-block;
+    color: #c60000;
+}
